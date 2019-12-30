@@ -1,0 +1,15 @@
+{
+  // Customer module configs
+  "Customer": {
+    "dbConfig": {
+      "host": "mongodb+srv://artevik:imrAlTjyJCzrj4vZ@spa-cluster-0-8lezl.azure.mongodb.net/app?retryWrites=true&w=majority",
+      "port": 5001,
+      "dbName": "customers"
+    },
+    "credit": {
+      "initialLimit": 100,
+      // Set low for development
+      "initialDays": 1
+    }
+  }
+}
